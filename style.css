@@ -1,0 +1,68 @@
+/* Style du site */
+*{
+    margin: 0;
+    padding: 0;
+}
+#acceuil{
+    background-color: #683d0f;
+    color: #F5F5F5;
+    display: flex;
+    text-indent: 45pt;
+    padding: 5pt;
+    margin-top: 5pt; 
+    text-shadow: 5px 5px 3px rgb(0, 0, 0);
+}
+h2:hover{
+    font-size: 2em;
+    transition: font-size 1s;
+    }
+#global{
+    display: flex;
+}
+header{
+background-color: #F5F5F5;
+display: flex;
+justify-content: space-around;
+width: 10%;
+padding: 10px;
+font-family: Arial;
+padding-bottom: 7%;
+}
+#conteneur1{
+    background-color: #F2EAD3;
+    width: 65%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#conteneur2{
+    background-color: #DFD7BF;
+    width: 35%;
+    padding-left: 20px;
+}
+#iconMenu{
+    display: flex;
+}
+table {
+    background-color: rgb(255, 255, 255);
+    width: 75%; /*de la page*/
+    border-radius: 5%;
+    margin-left: 12%;
+
+}
+#article {
+    display: flex;
+    flex-direction: row;
+}
+#galerie {
+    display: flex;
+}
+#contacts{
+    background-color: #303030;
+    text-align: center;
+    color: #f2f2f2;
+}
+th {
+    background-color: rgb(119, 110, 91);
+}
+        
